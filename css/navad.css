@@ -1,0 +1,536 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+	max-width: 1213px !important;
+}
+
+.top-header .container {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 138px;
+	padding-right: 138px;
+	box-shadow: 0.00px 1.00px 4px 0px rgba(0, 0, 0, 0.16);
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.top-header ul {
+	display: inline-flex;
+	width: 100%;
+	justify-content: space-between;
+	list-style: none;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+.top-header ul li span:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: -53px;
+	background-color: #a2a2a2;
+	height: 120px;
+	width: 1px;
+}
+
+.top-header ul li span {
+	padding-left: 27px;
+	margin-left: 28px;
+	position: relative;
+}
+
+.content {
+	clear: both;
+
+}
+
+.content .container {
+	background-color: #f0f9f9;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: 14px;
+	box-shadow: 0.00px 0.00px 4px 1px rgba(5, 146, 147, 0.11);
+	border-radius: 5px;
+}
+
+.content h1 {
+	font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica, sans-serif;
+	color: #059293;
+	font-weight: bold;
+	font-size: 26px;
+	margin: 0px 0px 19px 0;
+	text-align: center;
+}
+
+.content p {
+	font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.875em;
+	text-align: left;
+	margin-bottom: 0;
+	color: #565656;
+	padding-right: 149px;
+	width: 449px;
+	margin-left: auto;
+}
+
+.form {
+	clear: both;
+}
+
+.form .form-content {
+	width: 541px;
+	padding-right: 149px;
+	margin-left: auto;
+}
+
+.form .form-header {
+	background-color: #41acad;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	border-radius: 5px;
+	box-shadow: 0.00px 1.00px 4px 0px rgba(0, 0, 0, 0.25);
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 43px;
+
+}
+
+.form .form-header ul {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	list-style: none;
+	gap: 5px;
+}
+
+.form .form-header ul li img {
+	width: 33px;
+	height: 37px;
+	object-fit: cover;
+}
+
+.form .form-header ul li {
+	font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.form .form-section {
+	background-color: #f5feff;
+	box-shadow: 0.00px 1.00px 4px 0px rgba(0, 0, 0, 0.45);
+	border-radius: 5px;
+	padding: 29px 37px 5px 37px;
+}
+
+.form .form-section ul li {
+	position: relative;
+	margin-bottom: 33px;
+}
+
+.form .form-section ul {
+	list-style: none;
+}
+
+.form .form-section input:hover {
+	border-color: #525252;
+	border-width: 2px;
+}
+
+.form .form-section input:focus {
+	border-color: #525252;
+}
+
+.form .form-section input {
+	border: 1px solid #95d2d4;
+	width: 100%;
+	background-color: transparent;
+	padding: 3px 40px;
+	min-height: 45px;
+	box-sizing: border-box;
+	direction: ltr;
+	box-shadow: 0.00px 1.00px 0px 0px rgba(0, 0, 0, 0.18);
+	border-radius: 5px;
+	color: #757575;
+	text-align: center;
+}
+
+.form .form-section .icons svg {
+	width: 100%;
+	height: 100%;
+	fill: #35a8a9;
+}
+
+.form .form-section .icons {
+	background-color: transparent;
+	border: none;
+	width: 33px;
+	position: absolute;
+	height: 33px;
+	z-index: 9;
+	right: 7px;
+	top: 5px;
+}
+
+.form .form-section ul li button.submit:hover {
+	border: 0px solid rgb(29, 103, 205);
+	background: rgba(14, 166, 0, 0.38);
+}
+
+.form .form-section ul li button.submit {
+	padding: 3px 40px;
+	min-height: 45px;
+	transition: all 0.2s ease, visibility 0s;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #229da1;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+	border: none;
+	border-radius: 5px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+.form .form-section ul li:last-child {
+	margin-bottom: 0;
+}
+
+.form .form-section ul li span {
+	color: #757575;
+	font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+	box-shadow: 0.00px 1.00px 4px 0px rgba(0, 0, 0, 0.45);
+	padding: 3px 48px;
+	min-height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: normal;
+	text-align: right;
+}
+
+.footer {
+	clear: both;
+	margin-bottom: 8px;
+	margin-top: 42px;
+}
+
+.footer .container {
+	box-shadow: 0.00px 1.00px 4px 0px rgba(0, 0, 0, 0.14);
+	border-radius: 5px;
+	background-color: #f8f8f8;
+	padding-top: 0px;
+	padding-bottom: 48px;
+	max-width: 968px !important;
+	padding-left: 72px;
+	padding-right: 0;
+}
+
+.footer .text {
+	margin-top: 23px;
+}
+
+.footer ul {
+	list-style: none;
+	font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica, sans-serif;
+	color: #7F808A;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+.footer li span:first-child {
+	margin-right: 0
+}
+
+.footer li span {
+	margin-right: 29px;
+
+}
+
+.footer p {
+	font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica, sans-serif;
+	color: #7F808A;
+	letter-spacing: 0em;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	direction: ltr;
+	text-align: right;
+}
+
+.footer h5 {
+	font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica, sans-serif;
+	color: #7F808A;
+	letter-spacing: 0em;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	direction: ltr;
+	text-align: right;
+}
+
+.footer img {
+	width: 159px;
+	height: 106px;
+	object-fit: cover;
+}
+
+.top-header{
+	clear:both;
+}
+
+.meem-section {
+	
+   width: 600px;
+    height: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url("../images/Ahli1.webp"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: top center; */
+}
+.meem-section img{
+	width:100%;
+}
+.meem-section{
+	position: relative;
+	font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+}
+.meem-section ul li input {
+    color: #000;
+    outline: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    padding: 20px 20px;
+    text-align: right;
+    background-color: transparent;
+    box-shadow: none;
+}
+.meem-section ul {
+    list-style: none;
+    position: absolute;
+    top: 505px;
+    width: 67%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.meem-section ul li a:hover {
+	    color: #fff;
+}
+.meem-section ul li a {
+    transition: all 0.2s ease, visibility 0s;
+    background: #52089f;
+    display: block;
+    font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    padding: 23px 0px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    line-height: normal;
+}
+.meem-section ul li {
+    margin-bottom: 9px;
+}
+.meem-section ul li input::-webkit-input-placeholder { /* Edge */
+  color: #000;
+}
+
+.meem-section ul li input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #000;
+}
+
+.meem-section ul li input::placeholder {
+  color: #000;
+}
+.meem-section ul li:nth-child(2) {
+	margin-top: 34px;
+}
+.meem-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 128px;
+}
+.meem-section ul li label {
+	 font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+    color: #000;
+    display: block;
+	font-weight:bold;
+    margin-bottom: 0;
+	font-size:17px;
+    text-align: right;
+}
+.meem-section ul li:first-child input {
+    margin-top: 21px;
+}
+.meem-section ul li:nth-child(2) input {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		max-width: 100% !important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+
+	.top-header .container {
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.footer ul {
+		margin-top: 25px;
+	}
+
+	.top-header ul li:first-child {
+		display: none;
+	}
+
+	.top-header ul li span:before {
+		display: none;
+	}
+
+	.top-header ul li {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.content p {
+		padding-right: 0;
+		width: 100%;
+		text-align: right;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	.form .form-content {
+		width: 100%;
+		padding-right: 0;
+		margin-left: auto;
+	}
+
+	.form .form-section ul li button.submit {
+		width: 100%;
+	}
+
+	.form .form-header ul li {
+		text-align: right
+	}
+
+	.form .form-section {
+		padding: 29px 16px 5px 16px;
+	}
+
+	.footer .container {
+		max-width: 100% !important
+	}
+
+	.footer ul li {
+		text-align: right;
+		margin-bottom: 10px;
+	}
+
+	.footer li span {
+		margin-right: 0;
+		display: block;
+		width: 27%;
+		float: right;
+	}
+
+	.footer li span:last-child {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.footer .row {
+		justify-content: start;
+	}
+
+	.footer .col-sm-5 {
+		order: 1;
+		max-width: 56%;
+	}
+
+	.footer .col-sm-4 {
+		order: 3
+	}
+
+	.footer .col-sm-3 {
+
+		max-width: 44%;
+		order: 2
+	}
+}
+
+@media screen and (max-width: 501px) {
+	.footer li span {
+		width: auto;
+		margin-right: 16px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.footer img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 329px) {
+	.top-header ul li span {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 371px) {
+	.footer li span {
+		width: auto;
+		margin-right: 10px;
+	}
+
+	.footer .col-sm-5 {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.footer li span {
+		width: auto;
+		margin-right: 8px;
+	}
+}

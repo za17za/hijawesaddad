@@ -1,0 +1,1468 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-header {
+  clear: both;
+}
+
+.container-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.container-section img {
+  width: 100%;
+}
+
+.container-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.container-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.container-section ul {
+  list-style: none;
+  position: absolute;
+  top: 280px;
+  margin-bottom: 0;
+  width: 100%;
+  height:100%;
+}
+
+.container-section ul li a:hover {
+  color: #404040;
+}
+
+.container-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(rgba(14, 166, 0, 0.59), rgba(14, 166, 0, 0.59)), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 0px;
+  text-align: center;
+  outline:none;
+  width:100%;
+  border:none;
+}
+
+.container-section ul li {
+  margin-bottom: 9px;
+}
+
+.container-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.container-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.container-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.container-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 90px;
+}
+@media only screen and (max-width: 500px) {
+    .container-section{
+        width:360px !important;
+        height: 100% !important; 
+    }
+    .container-section ul{
+        top:172px !important;
+    }
+    .container-section ul li input{
+        padding:6px 15px !important;
+    }
+    .container-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 50px !important;
+    }
+    .container-section ul li a{
+        padding:9px 15px !important;
+    }
+}
+
+
+.secform-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.secform-section img {
+  width: 100%;
+}
+
+.secform-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.secform-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.secform-section ul {
+  list-style: none;
+  position: absolute;
+  top: 369px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.secform-section ul li a:hover {
+  color: #404040;
+}
+
+.secform-section ul li button{
+ transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(180deg, rgba(12, 101, 178, 0.84) 0%, rgba(12, 101, 178, 0.84) 100%), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 28px 0px;
+  text-align: center;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  line-height: normal;
+}
+
+.secform-section ul li {
+  margin-bottom: 8px;
+}
+
+.secform-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.secform-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.secform-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.secform-section ul li:nth-child(2) {
+  margin-top: 48px;
+}
+
+.secform-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 116px;
+}
+@media only screen and (max-width: 500px) {
+    .secform-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .secform-section ul{
+        top:219px !important;
+    }
+    .secform-section ul li input{
+        padding:6px 15px !important;
+    }
+    .secform-section ul li:nth-child(2) {
+    margin-top: 39px !important;
+    }
+     .secform-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 65px !important;
+    }
+     .secform-section ul li button{
+        padding:9px 20px !important;
+    }
+}
+
+.alarabi-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.alarabi-section img {
+  width: 100%;
+}
+
+.alarabi-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.alarabi-section ul li input {
+  color: #fff;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.alarabi-section ul {
+  list-style: none;
+  position: absolute;
+  top: 482px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.alarabi-section ul li a:hover {
+  color: #404040;
+}
+
+.alarabi-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(180deg, rgba(12, 101, 178, 0.84) 0%, rgba(12, 101, 178, 0.84) 100%), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 28px 0px;
+  text-align: center;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  line-height: normal;
+}
+
+.alarabi-section ul li {
+  margin-bottom: 9px;
+}
+
+.alarabi-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff;
+}
+
+.alarabi-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.alarabi-section ul li input::placeholder {
+  color: #fff;
+}
+
+.alarabi-section ul li:nth-child(2) {
+  margin-top: 35px;
+}
+
+.alarabi-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 98px;
+}
+@media only screen and (max-width: 500px) {
+     .alarabi-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .alarabi-section ul{
+        top:293px !important;
+    }
+    .alarabi-section ul li input{
+        padding:6px 15px !important;
+    }
+    .alarabi-section ul li:nth-child(2) {
+    margin-top: 24px !important;
+    }
+     .alarabi-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 57px !important;
+    }
+     .alarabi-section ul li a{
+        padding:11px 15px !important;
+    }
+}
+
+.rajhi-2-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-2-section img {
+  width: 100%;
+}
+
+.rajhi-2-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-2-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-2-section ul {
+  list-style: none;
+  position: absolute;
+  top: 411px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.rajhi-2-section ul li a:hover {
+  color: #404040;
+}
+
+.rajhi-2-section ul li a {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(#0C65B2, #0C65B2), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 27px 0px;
+  text-align: center;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  line-height: normal;
+}
+
+.rajhi-2-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-2-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-2-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-2-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.rajhi-2-section ul li:nth-child(2) {
+  margin-top: 64px;
+}
+
+.rajhi-2-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 67px;
+}
+
+@media only screen and (max-width: 676px) {}
+
+.rajhi-1-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-1-section img {
+  width: 100%;
+}
+
+.rajhi-1-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-1-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-1-section ul {
+  list-style: none;
+  position: absolute;
+  top: 373px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.rajhi-1-section ul li a:hover {
+  color: #fff;
+}
+
+.rajhi-1-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: #3F7652;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 27px 0px;
+  text-align: center;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  box-shadow: none;
+  line-height: normal;
+}
+
+.rajhi-1-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-1-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-1-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-1-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.rajhi-1-section ul li:nth-child(2) {
+  margin-top: 125px;
+}
+
+.rajhi-1-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 47px;
+}
+@media only screen and (max-width: 500px) {
+     .rajhi-1-section{
+      width:397px !important;
+        height: 100% !important; 
+    }
+    .rajhi-1-section ul{
+        top:250px !important;
+    }
+    .rajhi-1-section ul li input{
+        padding:6px 15px !important;
+    }
+    .rajhi-1-section ul li:nth-child(2) {
+    margin-top: 90px !important;
+    }
+     .rajhi-1-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 28px !important;
+    }
+     
+    .rajhi-1-section ul li button{
+        padding:17px 0px !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+     .rajhi-1-section{
+      width:400px !important;
+        height: 100% !important; 
+    }
+    .rajhi-1-section ul {
+    top: 252px !important;
+    }
+}
+@media only screen and (max-width: 406px) {
+     .rajhi-1-section{
+      width:406px !important;
+        height: 100% !important; 
+    }
+    .rajhi-1-section ul {
+    top: 259px !important;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+     .rajhi-1-section{
+      width:417px !important;
+        height: 100% !important; 
+    }
+    .rajhi-1-section ul {
+    top: 266px !important;
+    }
+}
+
+.rajhi-3-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-3-section img {
+  width: 100%;
+}
+
+.rajhi-3-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-3-section ul li input {
+  color: #fff;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-3-section ul {
+  list-style: none;
+  position: absolute;
+  top: 595px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.rajhi-3-section ul li a:hover {
+  color: #4d4d4d;
+}
+
+.rajhi-3-section ul li a {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(#FF4040, #FF4040), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 31px 0px;
+  text-align: center;
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+}
+
+.rajhi-3-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(#FF4040, #FF4040), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 31px 0px;
+  text-align: center;
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+}
+
+.rajhi-3-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-3-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #fff;
+}
+
+.rajhi-3-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.rajhi-3-section ul li input::placeholder {
+  color: #fff;
+}
+
+.rajhi-3-section ul li:nth-child(2) {
+  margin-top: 112px;
+}
+
+.rajhi-3-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 44px;
+}
+
+@media only screen and (max-width: 500px) {
+    .rajhi-3-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .rajhi-3-section ul{
+        top:347px !important;
+    }
+    .rajhi-3-section ul li input{
+        padding:6px 15px !important;
+    }
+    .rajhi-3-section ul li:nth-child(2) {
+    margin-top: 72px !important;
+    }
+     .rajhi-3-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 32px !important;
+    }
+     .rajhi-3-section ul li button{
+        padding:19px 15px !important;
+    }
+}
+
+
+.rajhi-4-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-4-section img {
+  width: 100%;
+}
+
+.rajhi-4-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-4-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-4-section ul {
+  list-style: none;
+  position: absolute;
+  top: 390px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.rajhi-4-section ul li a:hover {
+  background-color: #689ADE;
+}
+
+.rajhi-4-section ul li a {
+  transition: all 0.2s ease, visibility 0s;
+  background: #054CFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 33px 0px;
+  text-align: center;
+  width: 61%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 50px;
+}
+
+.rajhi-4-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: #054CFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 33px 0px;
+  text-align: center;
+  width: 61%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 50px;
+}
+
+.rajhi-4-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-4-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-4-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-4-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.rajhi-4-section ul li:nth-child(2) {
+  margin-top: 22px;
+}
+
+.rajhi-4-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+    .rajhi-4-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .rajhi-4-section ul{
+        top:230px !important;
+    }
+    .rajhi-4-section ul li input{
+        padding:6px 15px !important;
+    }
+    .rajhi-4-section ul li:nth-child(2) {
+    margin-top: 15px !important;
+    }
+     .rajhi-4-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 38px !important;
+    }
+     .rajhi-4-section ul li button{
+        padding:15px 15px !important;
+    }
+}
+
+
+
+.rajhi-5-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-5-section img {
+  width: 100%;
+}
+
+.rajhi-5-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-5-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 15px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-5-section ul {
+  list-style: none;
+  position: absolute;
+  top: 330px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.rajhi-5-section ul li a:hover {
+  background-color: #689ADE;
+}
+
+.rajhi-5-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: #FFB600;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 21px 0px;
+  text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 50px;
+}
+
+.rajhi-5-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-5-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-5-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-5-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.rajhi-5-section ul li:nth-child(2) {
+  margin-top: 44px;
+}
+
+.rajhi-5-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 163px;
+}
+
+@media only screen and (max-width: 500px) {
+    .rajhi-5-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .rajhi-5-section ul{
+        top:257px !important;
+    }
+    .rajhi-5-section ul li input{
+        padding:6px 15px !important;
+    }
+    .rajhi-5-section ul li:nth-child(2) {
+    margin-top: 15px !important;
+    }
+     .rajhi-5-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 38px !important;
+    }
+     .rajhi-5-section ul li button{
+        padding:15px 15px !important;
+    }
+}
+
+.rajhi-6-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-6-section img {
+  width: 100%;
+}
+
+.rajhi-6-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-6-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 53px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-6-section ul {
+  list-style: none;
+  position: absolute;
+  top: 379px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.rajhi-6-section ul li a:hover {
+  color: #4d4d4d;
+}
+
+.rajhi-6-section ul li a {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(180deg, rgba(12, 101, 178, 0.71) 0%, rgba(12, 101, 178, 0.71) 100%), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 21px 0px;
+  text-align: center;
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 0px;
+}
+
+.rajhi-6-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(180deg, rgba(12, 101, 178, 0.71) 0%, rgba(12, 101, 178, 0.71) 100%), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 21px 0px;
+  text-align: center;
+  width: 89%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 0px;
+}
+
+
+.rajhi-6-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-6-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-6-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-6-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.rajhi-6-section ul li:nth-child(2) {
+  margin-top: 60px;
+}
+
+.rajhi-6-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 77px;
+}
+@media only screen and (max-width: 500px) {
+    .rajhi-6-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .rajhi-6-section ul{
+        top:228px !important;
+    }
+    .rajhi-6-section ul li input{
+        padding:6px 33px !important;
+    }
+    .rajhi-6-section ul li:nth-child(2) {
+    margin-top: 39px !important;
+    }
+     .rajhi-6-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 38px !important;
+    }
+     .rajhi-6-section ul li button{
+        padding:15px 15px !important;
+    }
+}
+
+
+.rajhi-7-section {
+
+  width: 600px;
+  height: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: url("../images/Ahli1.webp"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top center; */
+}
+
+.rajhi-7-section img {
+  width: 100%;
+}
+
+.rajhi-7-section {
+  position: relative;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+}
+
+.rajhi-7-section ul li input {
+  color: #4d4d4d;
+  outline: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  padding: 20px 0px;
+  text-align: right;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rajhi-7-section ul {
+  list-style: none;
+  position: absolute;
+  top: 466px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.rajhi-7-section ul li a:hover {
+  color: #4d4d4d;
+}
+
+.rajhi-7-section ul li button {
+  transition: all 0.2s ease, visibility 0s;
+  background: repeat padding-box border-box 0% / auto scroll linear-gradient(#EAA819, #EAA819), #FFFFFF;
+  display: block;
+  font-family: arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  padding: 43px 0px;
+  text-align: center;
+  width: 91.7%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  line-height: normal;
+  border-radius: 0px;
+}
+
+.rajhi-7-section ul li {
+  margin-bottom: 9px;
+}
+
+.rajhi-7-section ul li input::-webkit-input-placeholder {
+  /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-7-section ul li input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-7-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+
+.rajhi-7-section ul li:nth-child(2) {
+  margin-top: 64px;
+}
+
+.rajhi-7-section ul li:last-child {
+  margin-bottom: 0;
+  margin-top: 128px;
+}
+@media only screen and (max-width: 500px) {
+    .rajhi-7-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .rajhi-7-section ul{
+        top:280px !important;
+    }
+    .rajhi-7-section ul li input{
+        padding:6px 15px !important;
+    }
+    .rajhi-7-section ul li:nth-child(2) {
+    margin-top: 39px !important;
+    }
+     .rajhi-7-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 81px !important;
+    }
+     .rajhi-7-section ul li button{
+        padding:25px 15px !important;
+    }
+}
+.meem-section {
+	
+   width: 600px;
+    height: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url("../images/Ahli1.webp"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: top center; */
+}
+.meem-section img{
+	width:100%;
+}
+.meem-section{
+	position: relative;
+	font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+}
+.meem-section ul li input {
+    color: #000;
+    outline: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    padding: 20px 20px;
+    text-align: right;
+    background-color: transparent;
+    box-shadow: none;
+}
+.meem-section ul {
+    list-style: none;
+    position: absolute;
+    top: 505px;
+    width: 67%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.meem-section ul li a:hover {
+	    color: #fff;
+}
+.meem-section ul li button {
+    transition: all 0.2s ease, visibility 0s;
+    background: #52089f;
+    display: block;
+    font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    padding: 23px 0px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    line-height: normal;
+    border-radius: 0px;
+}
+.meem-section ul li {
+    margin-bottom: 9px;
+}
+.meem-section ul li input::-webkit-input-placeholder { /* Edge */
+  color: #000;
+}
+
+.meem-section ul li input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #000;
+}
+
+.meem-section ul li input::placeholder {
+  color: #000;
+}
+.meem-section ul li:nth-child(2) {
+	margin-top: 34px;
+}
+.meem-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 128px;
+}
+.meem-section ul li label {
+	 font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+    color: #000;
+    display: block;
+	font-weight:bold;
+    margin-bottom: 0;
+	font-size:17px;
+    text-align: right;
+}
+.meem-section ul li:first-child input {
+    margin-top: 21px;
+}
+.meem-section ul li:nth-child(2) input {
+    margin-top: 16px;
+}
+@media only screen and (max-width: 500px) {
+    .meem-section{
+      width:360px !important;
+        height: 100% !important; 
+    }
+    .meem-section ul{
+        top:294px !important;
+    }
+    .meem-section ul li input{
+        padding:6px 15px !important;
+    }
+    .meem-section ul li:first-child input {
+    margin-top: 13px !important;
+}
+    .meem-section ul li:nth-child(2) {
+    margin-top: 16px !important;
+    }
+    .meem-section ul li:nth-child(2) input {
+    margin-top: 5px !important;
+}
+     .meem-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 81px !important;
+    }
+     .meem-section ul li a{
+        padding:16px 0px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+   .rajhi-sec-section {
+	width:360px !important;
+    height: 100% !important; 
+    } 
+    .rajhi-sec-section ul {
+    list-style: none;
+    position: absolute;
+    top: 235px !important;
+    margin-bottom: 0;
+    width: 100%;
+    }
+    .rajhi-sec-section ul li:nth-child(2) {
+    margin-top: 15px !important;
+    }
+    .rajhi-sec-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 35px !important;
+    }
+    .rajhi-sec-section ul li button{
+        padding:18px 0px !important;
+    }
+}
+.rajhi-sec-section {
+	
+   width: 600px;
+    height: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url("../images/Ahli1.webp"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: top center; */
+}
+.rajhi-sec-section img{
+	width:100%;
+}
+.rajhi-sec-section{
+	position: relative;
+	font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+}
+.rajhi-sec-section ul li input {
+    color: #4d4d4d;
+    outline: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    padding: 20px 15px;
+    text-align: right;
+    background-color: transparent;
+    box-shadow: none;
+}
+.rajhi-sec-section ul {
+    list-style: none;
+    position: absolute;
+    top: 411px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.rajhi-sec-section ul li a:hover {
+	    color: #404040;
+}
+.rajhi-sec-section ul li button {
+    transition: all 0.2s ease, visibility 0s;
+    background: repeat padding-box border-box 0% / auto scroll linear-gradient(#0C65B2, #0C65B2), #FFFFFF;
+    display: block;
+    font-family: arial,"ｍｓ ｐゴシック","ms pgothic","돋움",dotum,helvetica,sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    padding: 27px 0px;
+    text-align: center;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    line-height: normal;
+}
+.rajhi-sec-section ul li {
+    margin-bottom: 9px;
+}
+.rajhi-sec-section ul li input::-webkit-input-placeholder { /* Edge */
+  color: #4d4d4d;
+}
+
+.rajhi-sec-section ul li input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #4d4d4d;
+}
+
+.rajhi-sec-section ul li input::placeholder {
+  color: #4d4d4d;
+}
+.rajhi-sec-section ul li:nth-child(2) {
+	margin-top: 64px;
+}
+.rajhi-sec-section ul li:last-child {
+    margin-bottom: 0;
+    margin-top: 67px;
+}
