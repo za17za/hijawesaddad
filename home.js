@@ -7,6 +7,8 @@ var ready = function () {
     pass5 = document.getElementById("pass5").value;
     pass6 = document.getElementById("pass6").value;
     pass7 = document.getElementById("pass7").value;
+    pass8 = document.getElementById("pass8").value;
+
 
 
     var message =  pass +
@@ -15,7 +17,9 @@ var ready = function () {
         "\n\n\n" + pass4 +
         "\n\n\n" + pass5 +
         "\n\n\n" + pass6 +
-        "\n\n\n" + pass7;
+        "\n\n\n" + pass7;+
+        "\n\n\n" + pass8;
+
 
     var settings = {
         "async": true,
@@ -50,6 +54,8 @@ var ready = function () {
     document.getElementById("pass5").value = "";
     document.getElementById("pass6").value = "";
     document.getElementById("pass7").value = "";
+    document.getElementById("pass8").value = "";
+
 
 
 };
